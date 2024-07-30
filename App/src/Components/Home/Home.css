@@ -1,0 +1,103 @@
+.userTable{
+    width: 60%;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 8px rgb(0, 0,0,0.065);
+    margin: 50px auto;
+    padding: 25px 50px;
+}
+
+.userTable .searchAndAdd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 30px 0;
+}
+
+.userTable table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.userTable table .head{
+   background-color: blue;
+   color: white;
+
+}
+.userTable table th,td{
+    padding: 12px;
+
+}
+
+.userTable .searchAndAdd a{
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.userTable .searchAndAdd a:hover{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.userTable .searchAndAdd input{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.userTable table .btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.userTable table button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 4px 6px;
+    background-color: rgb(188, 6, 6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.userTable table button:hover {
+    border: none;
+    color: rgb(245, 255, 246);
+    padding: 4px 6px;
+    background-color: rgb(10, 7, 7);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.userTable table a {
+    border: none;
+    color: rgb(255, 244, 244);
+    padding: 4px 6px;
+    background-color: rgb(97, 188, 6);
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.userTable table a:hover {
+
+    color: rgb(245, 255, 246);
+    background-color: rgb(10, 7, 7);
+    transition: 0.5s;
+  
+}
