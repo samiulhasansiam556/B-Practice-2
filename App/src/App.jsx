@@ -20,7 +20,7 @@ function App() {
     {
       path: '/update/:id',
       element: <Update/>
-    },
+    }
 
    ])
 
