@@ -5,6 +5,7 @@ import axios from "axios";
 import toast from 'react-hot-toast';
 
 function Home(props) {
+    
     const url = import.meta.env.VITE_SERVER_URL;
     const [users, setUsers] = useState([]);
 
@@ -29,7 +30,7 @@ function Home(props) {
             })
             .catch((error) => {
                 console.error("Error deleting user", error);
-                });
+             });
             
     }
 

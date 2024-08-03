@@ -2,7 +2,6 @@ import User from "../model/userModel.js"
 
 
 
-
 export const create = async (req,res)=>{
     try {
 
@@ -43,10 +42,12 @@ export const getOne = async(req,res)=>{
         const id = req.params.id;
 
         const userExist = await User.findById(id);
+
         if(!userExist){
             res.status(404).json({msg:"User data not found"})
             }
-        res.status(200).json(userExist)
+       
+         res.status(200).json(userExist)
     }
     catch(error){
         res.status(500).json({message:error.message})
